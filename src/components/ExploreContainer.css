@@ -1,0 +1,39 @@
+#container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 20rem;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+}
+
+#radio-container,
+#radio-container-escolhas {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-box {
+  margin-top: 7px;
+}
+
+input[type=submit] {
+  position: relative;
+  padding: 13px 15px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(62, 180, 209);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 15px;
+  left: 50%;
+  transition: 0.2s;
+  transform: translateX(-50%);
+}
+
+input[type=submit]:hover {
+  background-color: rgb(41, 136, 160);
+}
